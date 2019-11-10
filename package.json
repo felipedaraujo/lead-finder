@@ -1,0 +1,24 @@
+{
+    "name": "click-firm",
+    "version": "1.0.0",
+    "description": "A script to generate leads for the Click Firm",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "source ./env.sh && node  -e 'require(\"./index\").handle()'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/felipedaraujo/click-firm.git"
+    },
+    "author": "Felipe de Araujo (felipedaraujo)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/felipedaraujo/click-firm/issues"
+    },
+    "homepage": "https://github.com/felipedaraujo/click-firm#readme",
+    "dependencies": {
+        "airtable": "0.7.2",
+        "puppeteer": "2.0.0"
+    }
+}
