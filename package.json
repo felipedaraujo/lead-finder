@@ -1,7 +1,7 @@
 {
-    "name": "click-firm",
+    "name": "lead-finder",
     "version": "1.0.0",
-    "description": "A script to generate leads for the Click Firm",
+    "description": "A tiny task to look at a company on Google and email them if the company is not found on the 1st page.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/felipedaraujo/click-firm.git"
+        "url": "git+https://github.com/felipedaraujo/lead-finder.git"
     },
     "author": "Felipe de Araujo (felipedaraujo)",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/felipedaraujo/click-firm/issues"
+        "url": "https://github.com/felipedaraujo/lead-finder/issues"
     },
-    "homepage": "https://github.com/felipedaraujo/click-firm#readme",
+    "homepage": "https://github.com/felipedaraujo/lead-finder#readme",
     "dependencies": {
+        "@sendgrid/mail": "6.4.0",
         "airtable": "0.7.2",
         "puppeteer": "2.0.0"
     }
